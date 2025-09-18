@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+p {
+    margin-top: 5px;
+}
+
+div {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    height: 40px;
+    width: 70px;
+}
