@@ -1,26 +1,42 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-h1, p {
-    text-align: center;
+body {
+    height: 100%;
+    background-color: rgb(20, 20, 20);
 }
 
-h1 {
-    font-weight: 100;
+header {
+    background-color: #272727;
+    padding: 20px;
+    display: flex;
 }
 
-p {
-    margin-top: 5px;
-}
-
-div {
-    text-align: center;
+nav {
     margin-top: 10px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center
 }
 
-button {
-    height: 40px;
-    width: 70px;
+
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
 }
+
+
+
+nav a:hover {
+    color: rgb(170, 170, 170);
+    transition: 150ms;
+}
+
